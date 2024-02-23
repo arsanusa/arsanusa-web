@@ -34,3 +34,12 @@
 package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = "."
+
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    # https://developers.google.com/search/docs/advanced/robots/robots_meta_tag?hl=en#xrobotstag
+    X-Robots-Tag = "nocache"

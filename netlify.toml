@@ -42,4 +42,4 @@ package = "@netlify/plugin-sitemap"
 
   [headers.values]
     # https://developers.google.com/search/docs/advanced/robots/robots_meta_tag?hl=en#xrobotstag
-    X-Robots-Tag = "noindex"
+    X-Robots-Tag = "all"
